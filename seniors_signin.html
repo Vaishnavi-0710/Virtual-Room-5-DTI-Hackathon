@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seniors Signin Page</title>
+        <link rel="stylesheet" href="seniors_signin.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="seniors_signin.js" defer></script>
+    </head>
+    <body>
+        <div class="body">
+            <div class="form-wrapper">
+                <div class="popup-form">
+                    <form id="formDetails">
+                        <div class="signin">Sign in</div>
+                        <div class="item">
+                            <div class="cell"><label for="email" >Username</label>
+                            </div>
+                            <div class="cell"><input type="email" id="email" name="email" placeholder="Enter email">
+                                <span id="emailError" class="error-msg"></span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="cell"><label for="password">Password</label></div>
+                            <div class="cell"><input type="password" id="password" name="password" placeholder="Enter the password">
+                            </div>
+                        </div>
+                        <div><input type="button" id="loginButton" class="button" value="Login"></div> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
